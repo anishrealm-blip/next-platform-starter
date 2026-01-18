@@ -11,11 +11,6 @@ const rules = [
         description: 'Das Verwenden von Cheats, Hacks oder modifizierten Clients ist streng verboten.'
     },
     {
-        icon: '🏠',
-        title: 'Kein Griefing',
-        description: 'Das Zerstören oder Beschädigen von Builds anderer Spieler ist nicht erlaubt.'
-    },
-    {
         icon: '🤝',
         title: 'Kein Rassismus oder Beleidigungen',
         description: 'Respektiere alle Spieler. Hassrede, Diskriminierung und Beleidigungen führen zu einem Ban.'

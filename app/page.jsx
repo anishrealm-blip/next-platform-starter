@@ -93,6 +93,36 @@ export default function Page() {
                     Jetzt starten
                 </Link>
             </section>
+
+            <section>
+                <h2 className="mb-6 text-center">Discord & WhatsApp</h2>
+                <div className="grid gap-6 md:grid-cols-2">
+                    <Card>
+                        <h3 className="text-primary mb-3">Discord</h3>
+                        <p className="text-neutral-300 mb-4">
+                            Tritt unserem Discord bei! Dort findest du News, Events, Support, Realm-Codes und kannst mit der Community chatten.
+                        </p>
+                        <a
+                            href="https://discord.gg/NT6UWpMNDN"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn w-full inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-500"
+                        >
+                            Discord beitreten
+                        </a>
+                    </Card>
+                    <Card>
+                        <h3 className="text-primary mb-3">WhatsApp Gruppe</h3>
+                        <p className="text-neutral-300 mb-4">
+                            Wir erstellen gerade auch eine WhatsApp-Gruppe, damit wir schneller kommunizieren können.
+                            Wenn du beitreten willst, sag Bescheid und wir schicken dir den Link.
+                        </p>
+                        <p className="text-sm text-neutral-400">
+                            Kontaktiere uns auf Discord für den Link!
+                        </p>
+                    </Card>
+                </div>
+            </section>
         </div>
     );
 }

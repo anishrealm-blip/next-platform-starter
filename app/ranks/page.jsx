@@ -11,8 +11,7 @@ const ranks = [
         color: 'from-gray-500 to-gray-600',
         benefits: [
             'Rang im Chat',
-            'Unterstützung des Projekts',
-            'Kleines Dankeschön'
+            'Unterstützung des Projekts'
         ]
     },
     {
@@ -53,7 +52,6 @@ const ranks = [
         benefits: [
             'Höchster Rang',
             'Einzigartiger Titel',
-            'Besondere Anerkennung im Realm',
             'Exklusives Loot-Paket auf dem neuen Realm',
             'Extra Dank vom Team'
         ],
@@ -100,11 +98,7 @@ export default function RanksPage() {
 
             <Card className="bg-yellow-900/30 border border-yellow-500/50">
                 <h3 className="text-yellow-300 mb-3">Wichtiger Hinweis</h3>
-                <ul className="space-y-2 text-neutral-200">
-                    <li>• Alle Ränge sind fair und nicht Pay-to-Win.</li>
-                    <li>• Loot gibt es nur auf dem neuen Realm, nicht auf PvP-Reichen.</li>
-                    <li>• Kontaktiere uns auf Discord oder im Spiel, um einen Rang zu kaufen.</li>
-                </ul>
+                <p className="text-neutral-200">Alle Ränge sind fair und nicht Pay-to-Win.</p>
             </Card>
         </>
     );

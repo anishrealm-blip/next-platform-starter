@@ -35,17 +35,11 @@ export default function RealmIdeasPage() {
             <>
                 <h1 className="mb-8">Realm-Ideen</h1>
                 <Card className="text-center py-12">
-                    <span className="text-6xl mb-4 block">🎉</span>
-                    <h2 className="text-primary mb-4">Vielen Dank!</h2>
+                    <span className="text-6xl mb-4 block">✅</span>
+                    <h2 className="text-primary mb-4">Deine Anfrage wurde erfolgreich gesendet.</h2>
                     <p className="text-neutral-300 mb-6">
-                        Deine Idee wurde erfolgreich eingereicht. Wir werden sie prüfen!
+                        Vielen Dank für deine Idee! Wir werden sie prüfen.
                     </p>
-                    <button
-                        onClick={() => setSubmitted(false)}
-                        className="btn"
-                    >
-                        Weitere Idee einreichen
-                    </button>
                 </Card>
             </>
         );

@@ -35,18 +35,12 @@ export default function ModApplicationPage() {
             <>
                 <h1 className="mb-8">MOD Bewerbung</h1>
                 <Card className="text-center py-12">
-                    <span className="text-6xl mb-4 block">📝</span>
-                    <h2 className="text-primary mb-4">Bewerbung eingereicht!</h2>
+                    <span className="text-6xl mb-4 block">✅</span>
+                    <h2 className="text-primary mb-4">Deine Anfrage wurde erfolgreich gesendet.</h2>
                     <p className="text-neutral-300 mb-6">
                         Vielen Dank für deine Bewerbung! Wir werden sie prüfen und uns bei dir melden.
                         Bitte hab etwas Geduld, das kann einige Tage dauern.
                     </p>
-                    <button
-                        onClick={() => setSubmitted(false)}
-                        className="btn"
-                    >
-                        Zurück
-                    </button>
                 </Card>
             </>
         );
