@@ -1,11 +1,43 @@
+<!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <form name="feedback" data-netlify="true" hidden>
-            <input type="hidden" name="form-name" value="feedback" />
-            <input name="name" type="text" />
-            <input name="email" type="text" />
-            <input name="message" type="text" />
-        </form>
-    </body>
+<head>
+    <title>Star Realm Forms</title>
+</head>
+<body>
+    <!-- Netlify Forms - Hidden form definitions for form detection -->
+
+    <!-- Realm Ideas Form -->
+    <form name="realm-ideas" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="realm-ideas" />
+        <input name="bot-field" />
+        <input name="name" type="text" />
+        <textarea name="idea"></textarea>
+    </form>
+
+    <!-- HT Test Form -->
+    <form name="ht-test" data-netlify="true" hidden>
+        <input type="hidden" name="form-name" value="ht-test" />
+        <input name="name" type="text" />
+        <input name="score" type="text" />
+        <input name="percentage" type="text" />
+        <input name="frage_1" type="text" />
+        <input name="frage_2" type="text" />
+        <input name="frage_3" type="text" />
+        <input name="frage_4" type="text" />
+        <input name="frage_5" type="text" />
+    </form>
+
+    <!-- MOD Application Form -->
+    <form name="mod-application" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="mod-application" />
+        <input type="hidden" name="subject" value="Neue MOD Bewerbung - Star Realm" />
+        <input name="bot-field" />
+        <input name="ingame-name" type="text" />
+        <input name="age" type="number" />
+        <textarea name="why-mod"></textarea>
+        <textarea name="experience"></textarea>
+        <textarea name="team-experience"></textarea>
+        <input name="online-time" type="text" />
+    </form>
+</body>
 </html>
