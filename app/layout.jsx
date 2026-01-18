@@ -4,14 +4,15 @@ import { Header } from '../components/header';
 
 export const metadata = {
     title: {
-        template: '%s | Netlify',
-        default: 'Netlify Starter'
-    }
+        template: '%s | Star Realm',
+        default: 'Star Realm – Minecraft Bedrock Realms'
+    },
+    description: 'Star Realm ist ein Minecraft-Bedrock-Projekt mit mehreren Realms für Survival, PvP und mehr. Tritt unserer Community bei!'
 };
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="de">
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
             </head>
